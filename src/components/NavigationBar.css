@@ -1,0 +1,39 @@
+.navigationBar {
+  display: block;
+}
+
+.navigationBar-logo {
+  float: left;
+  margin-left: 10px;
+  position: relative;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.right {
+  float: right;
+  list-style-type: none;
+}
+
+.flags {
+  float: right;
+  list-style-type: none;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+.flag {
+  margin: 5px;
+  float: right;
+}
+
+.coloredBar {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 50px;
+  background-color: blue;
+  box-shadow: 10px 5px 5px #aaaaaa;
+}
