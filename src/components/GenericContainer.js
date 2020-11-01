@@ -6,30 +6,8 @@ import moment from "moment";
 
 const courses = [
   {
-    weekday: "Tue",
-    date: "2020-03-11",
-    time: "14:00",
-    name: "Computer architecture",
-    location: "JK 204",
-    activityType: "Lecture",
-    professor: "G. Iorga",
-    groups: "1240F, 1241F",
-    activityTypeCategory: "OTHER",
-  },
-  {
-    weekday: "Wed",
-    date: "2020-04-11",
-    time: "12:00",
-    name: "Applied Electronics",
-    location: "NB 108",
-    activityType: "Lab",
-    professor: "M. Zaragoza",
-    groups: "1241F",
-    activityTypeCategory: "OTHER",
-  },
-  {
     weekday: "Mon",
-    date: "2020-02-11",
+    date: "2020-10-26",
     time: "10:00",
     name: "Management",
     location: "JK 202",
@@ -40,7 +18,62 @@ const courses = [
   },
   {
     weekday: "Wed",
-    date: "2020-04-11",
+    date: "2020-10-28",
+    time: "18:00",
+    name: "Computer architecture",
+    location: "JK 203",
+    activityType: "Seminary",
+    professor: "G. Iorga",
+    groups: "1240F, 1241F",
+    activityTypeCategory: "OTHER",
+  },
+  {
+    weekday: "Thu",
+    date: "2020-10-29",
+    time: "12:00",
+    name: "Applied Electronics",
+    location: "NB 108",
+    activityType: "Lab",
+    professor: "M. Zaragoza",
+    groups: "1241F",
+    activityTypeCategory: "OTHER",
+  },
+  {
+    weekday: "Tue",
+    date: "2020-11-03",
+    time: "14:00",
+    name: "Computer architecture",
+    location: "JK 204",
+    activityType: "Lecture",
+    professor: "G. Iorga",
+    groups: "1240F, 1241F",
+    activityTypeCategory: "OTHER",
+  },
+  {
+    weekday: "Wed",
+    date: "2020-11-04",
+    time: "12:00",
+    name: "Applied Electronics",
+    location: "NB 108",
+    activityType: "Lab",
+    professor: "M. Zaragoza",
+    groups: "1241F",
+    activityTypeCategory: "OTHER",
+  },
+  {
+    weekday: "Mon",
+    date: "2020-11-02",
+    time: "10:00",
+    name: "Management",
+    location: "JK 202",
+    activityType: "Seminary",
+    professor: "S. Jmen",
+    groups: "1240F, 1241F",
+    activityTypeCategory: "OTHER",
+  },
+  {
+    weekday: "Wed",
+    date: "2020-11-04",
     time: "18:00",
     name: "Computer architecture",
     location: "JK 203",
@@ -51,7 +84,7 @@ const courses = [
   },
   {
     weekday: "Mon",
-    date: "2020-02-11",
+    date: "2020-11-02",
     time: "16:00",
     name: "Computer architecture",
     location: "JK 203",
@@ -62,7 +95,7 @@ const courses = [
   },
   {
     weekday: "Tue",
-    date: "2020-03-11",
+    date: "2020-11-03",
     time: "14:00",
     name: "Computer architecture",
     location: "JK 203",
@@ -73,7 +106,7 @@ const courses = [
   },
   {
     weekday: "Wed",
-    date: "2020-03-11",
+    date: "2020-11-03",
     time: "12:00",
     name: "Applied Electronics",
     location: "JK 201",
@@ -84,7 +117,7 @@ const courses = [
   },
   {
     weekday: "Wed",
-    date: "2020-03-11",
+    date: "2020-11-03",
     time: "18:00",
     name: "Management",
     location: "NB 001",
@@ -95,7 +128,7 @@ const courses = [
   },
   {
     weekday: "Thu",
-    date: "2020-04-11",
+    date: "2020-11-04",
     time: "14:00",
     name: "Object Oriented Programming",
     location: "JK 001",
@@ -106,7 +139,7 @@ const courses = [
   },
   {
     weekday: "Wed",
-    date: "2020-03-11",
+    date: "2020-11-03",
     time: "16:00",
     name: "Object Oriented Programming",
     location: "JK 004",
@@ -117,7 +150,7 @@ const courses = [
   },
   {
     weekday: "Fri",
-    date: "2020-05-11",
+    date: "2020-11-05",
     time: "12:00",
     name: "Object Oriented Programming",
     location: "JK 004",
@@ -128,7 +161,7 @@ const courses = [
   },
   {
     weekday: "Mon",
-    date: "2020-08-11",
+    date: "2020-11-08",
     time: "12:00",
     name: "Security",
     location: "JK 003",
@@ -139,7 +172,7 @@ const courses = [
   },
   {
     weekday: "Tue",
-    date: "2020-09-11",
+    date: "2020-11-09",
     time: "14:00",
     name: "Security",
     location: "JK 002",
@@ -161,7 +194,7 @@ const courses = [
   },
   {
     weekday: "Mon",
-    date: "2020-14-11",
+    date: "2020-11-14",
     time: "12:00",
     name: "Security",
     location: "JK 003",
@@ -172,7 +205,7 @@ const courses = [
   },
   {
     weekday: "Tue",
-    date: "2020-15-11",
+    date: "2020-11-15",
     time: "14:00",
     name: "Security",
     location: "JK 002",
@@ -245,6 +278,7 @@ function GenericContainer() {
     if (selectedPeriod === "this week") {
       let now = moment();
       let date = moment(courseDate); // check this
+      console.log(now.isoWeek(), date.isoWeek());
       console.log(now.isoWeek() === date.isoWeek());
       return now.isoWeek() === date.isoWeek();
     }
