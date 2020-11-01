@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a409dca5729526660e00fee48548aaa",
+    "revision": "b9d743662affeea761e73740d8232443",
     "url": "/unifly/index.html"
   },
   {
-    "revision": "dd31f568c7b43355e5ed",
+    "revision": "0c888779cec1f46b2ed6",
     "url": "/unifly/static/css/main.f94936ad.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/unifly/static/js/2.73e9306d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dd31f568c7b43355e5ed",
-    "url": "/unifly/static/js/main.82e1b227.chunk.js"
+    "revision": "0c888779cec1f46b2ed6",
+    "url": "/unifly/static/js/main.b5c61b45.chunk.js"
   },
   {
     "revision": "eea076b9e4a6a30c0994",
