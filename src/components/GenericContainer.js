@@ -7,7 +7,7 @@ import moment from "moment";
 const courses = [
   {
     weekday: "Tue",
-    date: "2020-10-08",
+    date: "2020-03-11",
     time: "14:00",
     name: "Computer architecture",
     location: "JK 204",
@@ -18,7 +18,7 @@ const courses = [
   },
   {
     weekday: "Wed",
-    date: "2020-10-09",
+    date: "2020-04-11",
     time: "12:00",
     name: "Applied Electronics",
     location: "NB 108",
@@ -29,7 +29,7 @@ const courses = [
   },
   {
     weekday: "Mon",
-    date: "2020-10-14",
+    date: "2020-02-11",
     time: "10:00",
     name: "Management",
     location: "JK 202",
@@ -40,7 +40,7 @@ const courses = [
   },
   {
     weekday: "Wed",
-    date: "2020-10-09",
+    date: "2020-04-11",
     time: "18:00",
     name: "Computer architecture",
     location: "JK 203",
@@ -51,7 +51,7 @@ const courses = [
   },
   {
     weekday: "Mon",
-    date: "2020-10-14",
+    date: "2020-02-11",
     time: "16:00",
     name: "Computer architecture",
     location: "JK 203",
@@ -62,7 +62,7 @@ const courses = [
   },
   {
     weekday: "Tue",
-    date: "2020-10-15",
+    date: "2020-03-11",
     time: "14:00",
     name: "Computer architecture",
     location: "JK 203",
@@ -73,7 +73,7 @@ const courses = [
   },
   {
     weekday: "Wed",
-    date: "2020-10-16",
+    date: "2020-03-11",
     time: "12:00",
     name: "Applied Electronics",
     location: "JK 201",
@@ -84,7 +84,7 @@ const courses = [
   },
   {
     weekday: "Wed",
-    date: "2020-10-16",
+    date: "2020-03-11",
     time: "18:00",
     name: "Management",
     location: "NB 001",
@@ -95,7 +95,7 @@ const courses = [
   },
   {
     weekday: "Thu",
-    date: "2020-07-30",
+    date: "2020-04-11",
     time: "14:00",
     name: "Object Oriented Programming",
     location: "JK 001",
@@ -106,7 +106,7 @@ const courses = [
   },
   {
     weekday: "Wed",
-    date: "2020-07-29",
+    date: "2020-03-11",
     time: "16:00",
     name: "Object Oriented Programming",
     location: "JK 004",
@@ -117,7 +117,7 @@ const courses = [
   },
   {
     weekday: "Fri",
-    date: "2020-07-31",
+    date: "2020-05-11",
     time: "12:00",
     name: "Object Oriented Programming",
     location: "JK 004",
@@ -128,7 +128,7 @@ const courses = [
   },
   {
     weekday: "Mon",
-    date: "2020-07-27",
+    date: "2020-08-11",
     time: "12:00",
     name: "Security",
     location: "JK 003",
@@ -139,7 +139,7 @@ const courses = [
   },
   {
     weekday: "Tue",
-    date: "2020-07-29",
+    date: "2020-09-11",
     time: "14:00",
     name: "Security",
     location: "JK 002",
@@ -150,7 +150,7 @@ const courses = [
   },
   {
     weekday: "Fri",
-    date: "2020-07-31",
+    date: "2020-11-11",
     time: "16:00",
     name: "Security",
     location: "JK 004",
@@ -161,7 +161,7 @@ const courses = [
   },
   {
     weekday: "Mon",
-    date: "2020-08-03",
+    date: "2020-14-11",
     time: "12:00",
     name: "Security",
     location: "JK 003",
@@ -172,7 +172,7 @@ const courses = [
   },
   {
     weekday: "Tue",
-    date: "2020-08-04",
+    date: "2020-15-11",
     time: "14:00",
     name: "Security",
     location: "JK 002",
