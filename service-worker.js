@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/unifly/precache-manifest.6c3bf5f94a3284bea3e7dfa0449b06f8.js"
+  "/unifly/precache-manifest.970245969c367d7360523c02f12bbb5a.js"
 );
 
 self.addEventListener('message', (event) => {

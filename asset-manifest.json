@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/unifly/static/css/main.f94936ad.chunk.css",
-    "main.js": "/unifly/static/js/main.b5c61b45.chunk.js",
-    "main.js.map": "/unifly/static/js/main.b5c61b45.chunk.js.map",
+    "main.js": "/unifly/static/js/main.65cf17d0.chunk.js",
+    "main.js.map": "/unifly/static/js/main.65cf17d0.chunk.js.map",
     "runtime-main.js": "/unifly/static/js/runtime-main.137d16c3.js",
     "runtime-main.js.map": "/unifly/static/js/runtime-main.137d16c3.js.map",
     "static/js/2.73e9306d.chunk.js": "/unifly/static/js/2.73e9306d.chunk.js",
     "static/js/2.73e9306d.chunk.js.map": "/unifly/static/js/2.73e9306d.chunk.js.map",
     "index.html": "/unifly/index.html",
-    "precache-manifest.6c3bf5f94a3284bea3e7dfa0449b06f8.js": "/unifly/precache-manifest.6c3bf5f94a3284bea3e7dfa0449b06f8.js",
+    "precache-manifest.970245969c367d7360523c02f12bbb5a.js": "/unifly/precache-manifest.970245969c367d7360523c02f12bbb5a.js",
     "service-worker.js": "/unifly/service-worker.js",
     "static/css/main.f94936ad.chunk.css.map": "/unifly/static/css/main.f94936ad.chunk.css.map",
     "static/js/2.73e9306d.chunk.js.LICENSE.txt": "/unifly/static/js/2.73e9306d.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.137d16c3.js",
     "static/js/2.73e9306d.chunk.js",
     "static/css/main.f94936ad.chunk.css",
-    "static/js/main.b5c61b45.chunk.js"
+    "static/js/main.65cf17d0.chunk.js"
   ]
 }
